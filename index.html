@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Web-Sebastian Daza</title>
-    <link rel="shortcut icon" href="images/SD ICON.svg">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="animated.css">
+    <title>SDaza Design</title>
+    <link rel="shortcut icon" href="styles/images/SD ICON.svg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
 
     <a class="menu">
-        <img src="images/bx-menu.svg" alt="menu" class="menuu">
+        <img src="styles/images/bx-menu.svg" alt="menu" class="menuu">
     </a>
 
     <header class="hero">
@@ -23,7 +22,7 @@
 
             <div class="head">
 
-                <img src="images/SD LOGO.svg" alt="LOGO" class="logo">
+                <img src="styles/images/SD LOGO.svg" alt="LOGO" class="logo">
 
                 <div class="list">
                     <ul class="ull">
@@ -31,7 +30,7 @@
                         <li><a href="#sobre_mi">Sobre mi</a></li>
                         <li><a href="#mis_herramientas">Mis herramientas</a></li>
                         <li><a href="#">Portafolio</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
 
@@ -40,7 +39,7 @@
             <div class="header">
 
                 <div class="header_text">
-                    <h1 class="header_title" >Daza <a>Web</a> Developer</h1>
+                    <h1 class="header_title" >Sebastian <a>Daza</a> Design</h1>
                     <p class="header_t"></p>
                     <p class="ref">Imagen de <a href="https://pixabay.com/es/users/randyrmm-11051907/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4106667" class="yellow">Randy Rodriguez</a> en <a href="https://pixabay.com/es/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4106667" class="yellow">Pixabay</a></p>
                 </div>
@@ -56,7 +55,7 @@
         <div class="main_about">
 
             <div class="about_img">
-                <img src="images/IMG_20201126_162613.jpg" alt="" class="img">
+                <img src="styles/images/IMG_20201126_162613.jpg" alt="" class="img">
             </div>
 
             <div class="about">
@@ -110,21 +109,21 @@
 
             <div class="blocks">
                 <div>
-                    <img src="images/CSS_Outline.svg" alt="Css image">
+                    <img src="styles/images/CSS_Outline.svg" alt="Css image">
                     <h1>Css</h1>
                     <hr>
                     <p>Esta herramienta es muy util para la estructuración visual de cada página Web.</p>
                     <p>Considero que tengo un nivel intermedio debido a tengo gran habilidad en el uso.</p>
                 </div>
                 <div>
-                    <img src="images/Coding _Outline.svg" alt="Html image">
+                    <img src="styles/images/Coding _Outline.svg" alt="Html image">
                     <h1>Html</h1>
                     <hr>
                     <p>Esta herramienta es muy necesaria ya que es la estructura principal que ayuda a conectar cada una de las herramientas utilizadas para cada página Web.</p>
                     <p>Considero que mi nivel es intermedio ya que no he explorado cada una de las herramientas que contiene.</p>
                 </div>
                 <div>
-                    <img src="images/Javascript_Outline.svg" alt="Js image">
+                    <img src="styles/images/Javascript_Outline.svg" alt="Js image">
                     <h1>Js</h1>
                     <hr>
                     <p>JavaScript es el lenguaje de programación que ayuda a hacer más dinamica la página Web.</p>
@@ -169,7 +168,7 @@
                 </div>
     
                 <div class="footer_img">
-                    <img src="images/undraw_my_notifications_re_ehmk.svg" alt="" class="social">
+                    <img src="styles/images/undraw_my_notifications_re_ehmk.svg" alt="" class="social">
                 </div>
     
            </div>
@@ -195,7 +194,9 @@
 
         ScrollReveal().reveal('.header');
         ScrollReveal().reveal('.main_about',{delay: 200},{duration: 2500});
-        ScrollReveal().reveal('.about_work',{delay:250},{duration: 3000});
+        ScrollReveal().reveal('.about',{delay:250},{duration: 3000});
+        ScrollReveal().reveal('.blocks',{delay:250},{duration: 3000});
+        ScrollReveal().reveal('.banner',{delay:250},{duration: 3000});
         ScrollReveal().reveal('.footer',{delay:300},{duration: 4000});
 
     </script>
