@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="styles/images/SD ICON.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles/styles_contact.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    
+    <div class="content">
+
+        <h1 class="logo">Contact <span>Me</span></h1>
+
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Contáctame</h3>
+                <form action="https://formspree.io/f/myylreep"
+                method="POST">
+                    <p>
+                        <label>Nombre completo</label>
+                        <input type="text" name="Nombre">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="Email">
+                    </p>
+                    <p>
+                        <label>Telefono</label>
+                        <input type="tel" name="Telefono">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="Asunto">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label>
+                       <textarea name="mensaje" rows="4"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Más información</h4>
+                <ul>
+                    <li><i class="fab fa-telegram"></i></i> @SdazaP</li>
+                    <li><i class="fas fa-envelope-open-text"></i> sdazadesign@gmail.com</li>
+                </ul>
+                <p>Si necesitas conocer más o estas interesado en adquirir una página web para un negocio o personal, puedes contactarme con ayuda de este formulario, por mensaje a través de Telegram o por correo directamente.</p>
+                <p>sdazadesign.com</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        ScrollReveal().reveal('.content',{delay: 200},{duration: 2500});
+    </script>
+
+</body>
+</html>
