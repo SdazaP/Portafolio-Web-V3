@@ -1,0 +1,21 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #030304;
+    opacity: 1;
+    background-image:  radial-gradient(#ffeaa7 1.1500000000000001px, transparent 1.1500000000000001px), radial-gradient(#ffeaa7 1.1500000000000001px, #030304 1.1500000000000001px);
+    background-size: 46px 46px;
+    background-position: 0 0,23px 23px;
+    background-attachment: fixed;
+}
+.text_work{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.text_work p{
+    
+    font-size: 1.5em;
+    color: white;
+    margin: 0 auto;
+}
